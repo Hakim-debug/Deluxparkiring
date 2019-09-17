@@ -1,0 +1,147 @@
+.header {background-color: #000080; height: 15vh; }
+
+.leftcol {background-color: #dddddd; height: 80vh; width: 20%; float: left;text-align: center;}
+.meny {background-color: #bb4c4c; text-align: center; height: 10vh; padding: 6px 60px;} 
+.content {background-color: #dddddd; height: 80vh; width: 100%;float: left; }
+.rightcol {background-color: #dddddd; height: 80vh; width: 20%;float: right;}
+.footer {background-color: #000080; height: 10vh; clear: both}
+a{padding: 6px 60px;} 
+
+
+ul{list-style-type: none; margin: 0; padding: 0; background-color: #000080;}
+li a {color:#dddddd; padding: 8px 16px;text-decoration: none; display: block; font-family:'Chilanka',cursive;}
+
+li a:hover{background-color:#800000;}
+
+.center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family:'Oswald', sans-serif;}
+
+
+ body {
+  height: 100%;
+  /* background-image: url("pamela.jpg"); */
+  margin: 0%;
+  padding:0%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+.p_main{
+  background-image: url("images/pamela.jpg");
+  height: 70vh;
+}
+
+
+
+
+
+header {
+  background-color: #000080;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 0px;
+  min-height: 70px;
+  border-bottom: #f5f5dc 3px solid;
+  
+  }
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float: none;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+#content{
+  min-height:400px;
+  /* background: url('../ProjektArbete/city.jpg') no-repeat 0 -400px; */
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/ocean.jpg");
+
+  /* Control the height of the image */
+/*   min-height: 380px; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  left: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: beige;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: #4CAF50;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+@media screen and(max-width:500px){
+  .header {background-color: #55bb4c !important;}
+
+}
+
+

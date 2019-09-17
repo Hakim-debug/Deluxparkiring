@@ -1,0 +1,165 @@
+body {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/badge.jpg");
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: #000080;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 0px;
+  min-height: 70px;
+  border-bottom: #f5f5dc 3px solid;
+
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: none;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.meny {
+  background-color: #800000;
+  text-align: center;
+  height: 10vh;
+  padding: 6px 30px;
+}
+
+header a {
+  padding: 6px 30px;
+}
+
+
+
+.P { 
+  position: right;
+  list-style-position: inherit; 
+  text-align: center;
+  padding: 0px 30px;
+  margin: 0%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #f5f5dc;
+  font-weight: 700;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+   
+
+ }
+
+ .P :hover {
+  color: #500606;
+  font-weight: bold;
+
+ }
+ .form-group { 
+     padding: 20px;
+     text-align: center;
+     padding-bottom: 15px;
+ }
+ .button {
+     background-color:whitesmoke;
+     color: #000080;
+     padding: 10px 15px;
+     border:none;
+     position:center; 
+     
+ }
+ .button:hover{
+     background-color: greenyellow;
+     color: #fff;
+ }
+ .myform-group{
+     block-size: border-box;
+     width: 100%;
+
+ }
+ .block{
+     float: left;
+     width: 33,3%;
+     border:1px solid #500606;
+     padding:10px;
+     box-sizing: border-box;
+ }
+#sidebar{
+float: left;
+width: 305;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 998px) {
+  header{
+      padding: 20px 0px;
+  }
+  a{
+      display: inline;
+  }
+  .meny{
+      height: 30vh;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  header{
+      padding: 25px 0px;
+  }
+  a {
+      display: inline;
+      padding: 5px 15px;
+  }
+
+  .meny {
+      height: 10vh;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  a {
+      display: block;
+  }
+
+  .meny {
+      height: 60vh;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  a {
+      display: block;
+  }
+
+  .meny {
+      height: 30vh;
+  }
+}
