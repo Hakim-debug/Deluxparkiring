@@ -1,22 +1,7 @@
-.header {background-color: #000080; height: 15vh; }
+/* .header {background-color: #000080; height: 15vh; } */
+/*Body css*/
 
-.leftcol {background-color: #dddddd; height: 80vh; width: 20%; float: left;text-align: center;}
-.meny {background-color: #bb4c4c; text-align: center; height: 10vh; padding: 6px 60px;} 
-.content {background-color: #dddddd; height: 80vh; width: 100%;float: left; }
-.rightcol {background-color: #dddddd; height: 80vh; width: 20%;float: right;}
-.footer {background-color: #000080; height: 10vh; clear: both}
-a{padding: 6px 60px;} 
-
-
-ul{list-style-type: none; margin: 0; padding: 0; background-color: #000080;}
-li a {color:#dddddd; padding: 8px 16px;text-decoration: none; display: block; font-family:'Chilanka',cursive;}
-
-li a:hover{background-color:#800000;}
-
-.center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family:'Oswald', sans-serif;}
-
-
- body {
+body {
   height: 100%;
   /* background-image: url("pamela.jpg"); */
   margin: 0%;
@@ -26,15 +11,21 @@ li a:hover{background-color:#800000;}
   background-repeat: no-repeat;
   background-size: cover;
 }  
+.leftcol {background-color: #dddddd; height: 80vh; width: 20%; float: left;text-align: center;}
+.meny {background-color: #bb4c4c; text-align: center; height: 10vh; padding: 6px 60px;} 
+.content {background-color: #dddddd; height: 80vh; width: 100%;float: left; }
+.rightcol {background-color: #dddddd; height: 80vh; width: 20%;float: right;}
+.footer {background-color: #000080; height: 10vh; clear: both}
+.center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family:'Oswald', sans-serif;}
+/*Body CSS END*/
+ul{list-style-type: none; margin: 0; padding: 0; background-color: #000080;}
+li a {color:#dddddd; padding: 8px 16px;text-decoration: none; display: block; font-family:'Chilanka',cursive;}
+
 .p_main{
   background-image: url("images/pamela.jpg");
   height: 70vh;
 }
-
-
-
-
-
+/**/
 header {
   background-color: #000080;
   color: #ffffff;
@@ -67,16 +58,29 @@ header a:hover{
   color:#cccccc;
   font-weight: bold;
 }
+.meny {
+  background-color: #800000;
+  text-align: center;
+  height: 5vh;
+  padding: 6px 30px;
+}
 
+header a {
+  padding: 6px 30px;
+}
+.active{
+  background: beige;
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
 #content{
   min-height:400px;
   /* background: url('../ProjektArbete/city.jpg') no-repeat 0 -400px; */
 }
-
-
-
-
-
+.content img{
+  height: 80vh;
+}
 body, html {
   height: 100%;
 }
@@ -84,7 +88,80 @@ body, html {
 * {
   box-sizing: border-box;
 }
+/*Startside CCSS start*/
+.startsida_main img{
+  height: 80vh;
+  width: 100%;
+}
+/* Startsida css End */
+/*Hitta oss sida*/
+.hittaoss_body .rightcol{
+  width: 80%;
 
+}
+/* Test page CSS */
+.P { 
+  position: right;
+  list-style-position: inherit; 
+  text-align: center;
+  padding: 0px 30px;
+  margin: 0%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #f5f5dc;
+  font-weight: 700;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+   
+
+ }
+
+ .P :hover {
+  color: #500606;
+  font-weight: bold;
+
+ }
+ .test_main{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/badge.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .form-group { 
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+}
+.button {
+  background-color:whitesmoke;
+  color: #000080;
+  padding: 10px 15px;
+  border:none;
+  position:center; 
+  
+}
+.button:hover{
+  background-color: greenyellow;
+  color: #fff;
+}
+.myform-group{
+  block-size: border-box;
+  width: 100%;
+
+}
+.block{
+  float: left;
+  width: 33,3%;
+  border:1px solid #500606;
+  padding:10px;
+  box-sizing: border-box;
+}
+/* Test page CSS END */
 .bg-img {
   /* The image used */
   background-image: url("images/ocean.jpg");
@@ -112,7 +189,7 @@ body, html {
 
 /* Full-width input fields */
   input[type=text], input[type=password] {
-  width: 100%;
+  width: 170px;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: #4CAF50;
@@ -143,5 +220,54 @@ input[type=text]:focus, input[type=password]:focus {
   .header {background-color: #55bb4c !important;}
 
 }
+/*Header Media Querie*/
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 998px) {
+  header{
+      padding: 20px 0px;
+  }
+  a{
+      display: inline;
+  }
+  .meny{
+      height: 5vh;
+  }
+}
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  header{
+      padding: 25px 0px;
+  }
+  a {
+      display: inline;
+      padding: 5px 15px;
+  }
+
+  .meny {
+      height: 10vh;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  a {
+      display: block;
+  }
+
+  .meny {
+      height: 30vh;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  a {
+      display: block;
+  }
+
+  .meny {
+      height: 30vh;
+  }
+}
